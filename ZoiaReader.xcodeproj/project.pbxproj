@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C570D11F2B1FCCED00E292D8 /* ZoiaReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D11E2B1FCCED00E292D8 /* ZoiaReaderApp.swift */; };
+		C570D1212B1FCCED00E292D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1202B1FCCED00E292D8 /* ContentView.swift */; };
+		C570D1232B1FCCEE00E292D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C570D1222B1FCCEE00E292D8 /* Assets.xcassets */; };
+		C570D1272B1FCCEE00E292D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C570D1262B1FCCEE00E292D8 /* Preview Assets.xcassets */; };
+		C570D1312B1FCCEE00E292D8 /* ZoiaReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1302B1FCCEE00E292D8 /* ZoiaReaderTests.swift */; };
+		C570D13B2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D13A2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift */; };
+		C570D13D2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D13C2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C570D12D2B1FCCEE00E292D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C570D1132B1FCCED00E292D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C570D11A2B1FCCED00E292D8;
+			remoteInfo = ZoiaReader;
+		};
+		C570D1372B1FCCEE00E292D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C570D1132B1FCCED00E292D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C570D11A2B1FCCED00E292D8;
+			remoteInfo = ZoiaReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C570D11B2B1FCCED00E292D8 /* ZoiaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoiaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C570D11E2B1FCCED00E292D8 /* ZoiaReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderApp.swift; sourceTree = "<group>"; };
+		C570D1202B1FCCED00E292D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C570D1222B1FCCEE00E292D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C570D1242B1FCCEE00E292D8 /* ZoiaReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZoiaReader.entitlements; sourceTree = "<group>"; };
+		C570D1262B1FCCEE00E292D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C570D12C2B1FCCEE00E292D8 /* ZoiaReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoiaReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C570D1302B1FCCEE00E292D8 /* ZoiaReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderTests.swift; sourceTree = "<group>"; };
+		C570D1362B1FCCEE00E292D8 /* ZoiaReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoiaReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C570D13A2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderUITests.swift; sourceTree = "<group>"; };
+		C570D13C2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C570D1182B1FCCED00E292D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D1292B1FCCEE00E292D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D1332B1FCCEE00E292D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C570D1122B1FCCED00E292D8 = {
+			isa = PBXGroup;
+			children = (
+				C570D11D2B1FCCED00E292D8 /* ZoiaReader */,
+				C570D12F2B1FCCEE00E292D8 /* ZoiaReaderTests */,
+				C570D1392B1FCCEE00E292D8 /* ZoiaReaderUITests */,
+				C570D11C2B1FCCED00E292D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C570D11C2B1FCCED00E292D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C570D11B2B1FCCED00E292D8 /* ZoiaReader.app */,
+				C570D12C2B1FCCEE00E292D8 /* ZoiaReaderTests.xctest */,
+				C570D1362B1FCCEE00E292D8 /* ZoiaReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C570D11D2B1FCCED00E292D8 /* ZoiaReader */ = {
+			isa = PBXGroup;
+			children = (
+				C570D11E2B1FCCED00E292D8 /* ZoiaReaderApp.swift */,
+				C570D1202B1FCCED00E292D8 /* ContentView.swift */,
+				C570D1222B1FCCEE00E292D8 /* Assets.xcassets */,
+				C570D1242B1FCCEE00E292D8 /* ZoiaReader.entitlements */,
+				C570D1252B1FCCEE00E292D8 /* Preview Content */,
+			);
+			path = ZoiaReader;
+			sourceTree = "<group>";
+		};
+		C570D1252B1FCCEE00E292D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C570D1262B1FCCEE00E292D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C570D12F2B1FCCEE00E292D8 /* ZoiaReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C570D1302B1FCCEE00E292D8 /* ZoiaReaderTests.swift */,
+			);
+			path = ZoiaReaderTests;
+			sourceTree = "<group>";
+		};
+		C570D1392B1FCCEE00E292D8 /* ZoiaReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C570D13A2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift */,
+				C570D13C2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift */,
+			);
+			path = ZoiaReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C570D11A2B1FCCED00E292D8 /* ZoiaReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C570D1402B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReader" */;
+			buildPhases = (
+				C570D1172B1FCCED00E292D8 /* Sources */,
+				C570D1182B1FCCED00E292D8 /* Frameworks */,
+				C570D1192B1FCCED00E292D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoiaReader;
+			productName = ZoiaReader;
+			productReference = C570D11B2B1FCCED00E292D8 /* ZoiaReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C570D12B2B1FCCEE00E292D8 /* ZoiaReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C570D1432B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReaderTests" */;
+			buildPhases = (
+				C570D1282B1FCCEE00E292D8 /* Sources */,
+				C570D1292B1FCCEE00E292D8 /* Frameworks */,
+				C570D12A2B1FCCEE00E292D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C570D12E2B1FCCEE00E292D8 /* PBXTargetDependency */,
+			);
+			name = ZoiaReaderTests;
+			productName = ZoiaReaderTests;
+			productReference = C570D12C2B1FCCEE00E292D8 /* ZoiaReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C570D1352B1FCCEE00E292D8 /* ZoiaReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C570D1462B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReaderUITests" */;
+			buildPhases = (
+				C570D1322B1FCCEE00E292D8 /* Sources */,
+				C570D1332B1FCCEE00E292D8 /* Frameworks */,
+				C570D1342B1FCCEE00E292D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C570D1382B1FCCEE00E292D8 /* PBXTargetDependency */,
+			);
+			name = ZoiaReaderUITests;
+			productName = ZoiaReaderUITests;
+			productReference = C570D1362B1FCCEE00E292D8 /* ZoiaReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C570D1132B1FCCED00E292D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C570D11A2B1FCCED00E292D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					C570D12B2B1FCCEE00E292D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C570D11A2B1FCCED00E292D8;
+					};
+					C570D1352B1FCCEE00E292D8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = C570D11A2B1FCCED00E292D8;
+					};
+				};
+			};
+			buildConfigurationList = C570D1162B1FCCED00E292D8 /* Build configuration list for PBXProject "ZoiaReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C570D1122B1FCCED00E292D8;
+			productRefGroup = C570D11C2B1FCCED00E292D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C570D11A2B1FCCED00E292D8 /* ZoiaReader */,
+				C570D12B2B1FCCEE00E292D8 /* ZoiaReaderTests */,
+				C570D1352B1FCCEE00E292D8 /* ZoiaReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C570D1192B1FCCED00E292D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570D1272B1FCCEE00E292D8 /* Preview Assets.xcassets in Resources */,
+				C570D1232B1FCCEE00E292D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D12A2B1FCCEE00E292D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D1342B1FCCEE00E292D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C570D1172B1FCCED00E292D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570D1212B1FCCED00E292D8 /* ContentView.swift in Sources */,
+				C570D11F2B1FCCED00E292D8 /* ZoiaReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D1282B1FCCEE00E292D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570D1312B1FCCEE00E292D8 /* ZoiaReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C570D1322B1FCCEE00E292D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570D13D2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift in Sources */,
+				C570D13B2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C570D12E2B1FCCEE00E292D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C570D11A2B1FCCED00E292D8 /* ZoiaReader */;
+			targetProxy = C570D12D2B1FCCEE00E292D8 /* PBXContainerItemProxy */;
+		};
+		C570D1382B1FCCEE00E292D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C570D11A2B1FCCED00E292D8 /* ZoiaReader */;
+			targetProxy = C570D1372B1FCCEE00E292D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C570D13E2B1FCCEE00E292D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C570D13F2B1FCCEE00E292D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C570D1412B1FCCEE00E292D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoiaReader/ZoiaReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoiaReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C570D1422B1FCCEE00E292D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoiaReader/ZoiaReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoiaReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C570D1442B1FCCEE00E292D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoiaReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZoiaReader";
+			};
+			name = Debug;
+		};
+		C570D1452B1FCCEE00E292D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoiaReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZoiaReader";
+			};
+			name = Release;
+		};
+		C570D1472B1FCCEE00E292D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoiaReader;
+			};
+			name = Debug;
+		};
+		C570D1482B1FCCEE00E292D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seth.ZoiaReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoiaReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C570D1162B1FCCED00E292D8 /* Build configuration list for PBXProject "ZoiaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C570D13E2B1FCCEE00E292D8 /* Debug */,
+				C570D13F2B1FCCEE00E292D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C570D1402B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C570D1412B1FCCEE00E292D8 /* Debug */,
+				C570D1422B1FCCEE00E292D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C570D1432B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C570D1442B1FCCEE00E292D8 /* Debug */,
+				C570D1452B1FCCEE00E292D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C570D1462B1FCCEE00E292D8 /* Build configuration list for PBXNativeTarget "ZoiaReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C570D1472B1FCCEE00E292D8 /* Debug */,
+				C570D1482B1FCCEE00E292D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C570D1132B1FCCED00E292D8 /* Project object */;
+}
