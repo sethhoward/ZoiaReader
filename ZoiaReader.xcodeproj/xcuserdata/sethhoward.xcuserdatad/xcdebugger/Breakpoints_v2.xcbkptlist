@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C6B4005B-E430-492E-A98B-1F7A86972A6B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C521DDEF-B59A-4B05-A30B-211B4A6DC4D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/Zoia.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "pages"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C521DDEF-B59A-4B05-A30B-211B4A6DC4D4 - eb18b32ec115ccd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZoiaBinReader.Zoia.pages.getter : Swift.Dictionary&lt;Swift.Int, Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/Zoia.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C521DDEF-B59A-4B05-A30B-211B4A6DC4D4 - 1b258e1106e43ee5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ZoiaBinReader.Zoia.Module) -&gt; () in ZoiaBinReader.Zoia.pages.getter : Swift.Dictionary&lt;Swift.Int, Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/Zoia.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE75CC02-CC19-41D3-90AB-8BA7D19BFD7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E763E239-2C73-4C0D-A8EA-E8E5F6930CEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A41DC91A-488C-41C5-8B8A-08DBC5259E4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AF4038A-1740-42E6-9508-285B8FEB6971"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/ZoiaReader-fwbqwyvtjbuskjcjkvmhshxnsijw/SourcePackages/checkouts/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CFBA584-BE15-4023-B674-D9C1DF64F9F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE3EB291-3FAE-41FE-96CF-6D35AFDE2E2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "modules()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4858637-4B63-4157-BB50-B862626AE4FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
+            landmarkName = "modules()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4858637-4B63-4157-BB50-B862626AE4FA - 56bb4d91ce71441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;, Swift.Error&gt;) -&gt; () in ZoiaBinReader.ZoiaFileReader.modules() async throws -&gt; Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Work/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  uuid = "C4858637-4B63-4157-BB50-B862626AE4FA - 56bb4d91ce71441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;, Swift.Error&gt;) -&gt; () in ZoiaBinReader.ZoiaFileReader.modules() async throws -&gt; Swift.Array&lt;ZoiaBinReader.Zoia.Module&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Work/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  uuid = "C4858637-4B63-4157-BB50-B862626AE4FA - ffc39a9ba1fbccae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;ZoiaBinReader.Module&gt;, Swift.Error&gt;) -&gt; () in ZoiaBinReader.ZoiaFileReader.modules() async throws -&gt; Swift.Array&lt;ZoiaBinReader.Module&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Work/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1D98623-AB81-4C0D-87E6-4AE434DEA793"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "modules()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1D98623-AB81-4C0D-87E6-4AE434DEA793 - ffc39a9ba1fbf34f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;ZoiaBinReader.Module&gt;, Swift.Error&gt;) -&gt; () in ZoiaBinReader.ZoiaFileReader.modules() async throws -&gt; Swift.Array&lt;ZoiaBinReader.Module&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Work/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "C1D98623-AB81-4C0D-87E6-4AE434DEA793 - cccb424004cea26e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) throws -&gt; ZoiaBinReader.Module in closure #1 (Swift.CheckedContinuation&lt;Swift.Array&lt;ZoiaBinReader.Module&gt;, Swift.Error&gt;) -&gt; () in ZoiaBinReader.ZoiaFileReader.modules() async throws -&gt; Swift.Array&lt;ZoiaBinReader.Module&gt;"
+                  moduleName = "ZoiaReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sethhoward/Work/ZoiaBinReader/Sources/ZoiaBinReader/ZoiaBinReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56842682-17D6-4253-B6B2-CBF4A803ECA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZoiaReader/Views/ZoiaButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "name"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

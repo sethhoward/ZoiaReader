@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,14 @@
 		C570D1312B1FCCEE00E292D8 /* ZoiaReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1302B1FCCEE00E292D8 /* ZoiaReaderTests.swift */; };
 		C570D13B2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D13A2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift */; };
 		C570D13D2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D13C2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift */; };
+		C570D14F2B1FD1DD00E292D8 /* Euroburo in Resources */ = {isa = PBXBuildFile; fileRef = C570D14D2B1FD1DD00E292D8 /* Euroburo */; };
+		C570D1502B1FD1DD00E292D8 /* Zoia in Resources */ = {isa = PBXBuildFile; fileRef = C570D14E2B1FD1DD00E292D8 /* Zoia */; };
+		C570D1552B1FD4E000E292D8 /* ZoiaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1532B1FD4E000E292D8 /* ZoiaButton.swift */; };
+		C570D1562B1FD4E000E292D8 /* ZoiaButtonGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1542B1FD4E000E292D8 /* ZoiaButtonGrid.swift */; };
+		C5E182622B215172005B2EFB /* PatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182612B215172005B2EFB /* PatchView.swift */; };
+		C5E182652B218024005B2EFB /* ZoiaPatchReader in Frameworks */ = {isa = PBXBuildFile; productRef = C5E182642B218024005B2EFB /* ZoiaPatchReader */; };
+		C5E182672B2218BD005B2EFB /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182662B2218BD005B2EFB /* FileListView.swift */; };
+		C5E182692B227258005B2EFB /* PatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182682B227258005B2EFB /* PatchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,13 @@
 		C570D1362B1FCCEE00E292D8 /* ZoiaReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoiaReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C570D13A2B1FCCEE00E292D8 /* ZoiaReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderUITests.swift; sourceTree = "<group>"; };
 		C570D13C2B1FCCEE00E292D8 /* ZoiaReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiaReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C570D14D2B1FD1DD00E292D8 /* Euroburo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Euroburo; sourceTree = "<group>"; };
+		C570D14E2B1FD1DD00E292D8 /* Zoia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Zoia; sourceTree = "<group>"; };
+		C570D1532B1FD4E000E292D8 /* ZoiaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoiaButton.swift; sourceTree = "<group>"; };
+		C570D1542B1FD4E000E292D8 /* ZoiaButtonGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoiaButtonGrid.swift; sourceTree = "<group>"; };
+		C5E182612B215172005B2EFB /* PatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchView.swift; sourceTree = "<group>"; };
+		C5E182662B2218BD005B2EFB /* FileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListView.swift; sourceTree = "<group>"; };
+		C5E182682B227258005B2EFB /* PatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E182652B218024005B2EFB /* ZoiaPatchReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +95,7 @@
 				C570D12F2B1FCCEE00E292D8 /* ZoiaReaderTests */,
 				C570D1392B1FCCEE00E292D8 /* ZoiaReaderUITests */,
 				C570D11C2B1FCCED00E292D8 /* Products */,
+				C5E182632B218024005B2EFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +112,10 @@
 		C570D11D2B1FCCED00E292D8 /* ZoiaReader */ = {
 			isa = PBXGroup;
 			children = (
+				C570D1522B1FD29F00E292D8 /* Models */,
+				C570D1512B1FD23900E292D8 /* Views */,
+				C570D14C2B1FD1BA00E292D8 /* Factory Patches */,
 				C570D11E2B1FCCED00E292D8 /* ZoiaReaderApp.swift */,
-				C570D1202B1FCCED00E292D8 /* ContentView.swift */,
 				C570D1222B1FCCEE00E292D8 /* Assets.xcassets */,
 				C570D1242B1FCCEE00E292D8 /* ZoiaReader.entitlements */,
 				C570D1252B1FCCEE00E292D8 /* Preview Content */,
@@ -129,6 +148,42 @@
 			path = ZoiaReaderUITests;
 			sourceTree = "<group>";
 		};
+		C570D14C2B1FD1BA00E292D8 /* Factory Patches */ = {
+			isa = PBXGroup;
+			children = (
+				C570D14E2B1FD1DD00E292D8 /* Zoia */,
+				C570D14D2B1FD1DD00E292D8 /* Euroburo */,
+			);
+			path = "Factory Patches";
+			sourceTree = "<group>";
+		};
+		C570D1512B1FD23900E292D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C570D1202B1FCCED00E292D8 /* ContentView.swift */,
+				C5E182662B2218BD005B2EFB /* FileListView.swift */,
+				C5E182612B215172005B2EFB /* PatchView.swift */,
+				C570D1532B1FD4E000E292D8 /* ZoiaButton.swift */,
+				C570D1542B1FD4E000E292D8 /* ZoiaButtonGrid.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C570D1522B1FD29F00E292D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5E182682B227258005B2EFB /* PatchViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5E182632B218024005B2EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +200,9 @@
 			dependencies = (
 			);
 			name = ZoiaReader;
+			packageProductDependencies = (
+				C5E182642B218024005B2EFB /* ZoiaPatchReader */,
+			);
 			productName = ZoiaReader;
 			productReference = C570D11B2B1FCCED00E292D8 /* ZoiaReader.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +275,9 @@
 				Base,
 			);
 			mainGroup = C570D1122B1FCCED00E292D8;
+			packageReferences = (
+				C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */,
+			);
 			productRefGroup = C570D11C2B1FCCED00E292D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C570D1272B1FCCEE00E292D8 /* Preview Assets.xcassets in Resources */,
+				C570D14F2B1FD1DD00E292D8 /* Euroburo in Resources */,
 				C570D1232B1FCCEE00E292D8 /* Assets.xcassets in Resources */,
+				C570D1502B1FD1DD00E292D8 /* Zoia in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C570D1212B1FCCED00E292D8 /* ContentView.swift in Sources */,
+				C570D1562B1FD4E000E292D8 /* ZoiaButtonGrid.swift in Sources */,
+				C5E182692B227258005B2EFB /* PatchViewModel.swift in Sources */,
+				C570D1552B1FD4E000E292D8 /* ZoiaButton.swift in Sources */,
+				C5E182672B2218BD005B2EFB /* FileListView.swift in Sources */,
 				C570D11F2B1FCCED00E292D8 /* ZoiaReaderApp.swift in Sources */,
+				C5E182622B215172005B2EFB /* PatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +498,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -466,8 +534,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -609,6 +677,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ZoiaBinReader;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5E182642B218024005B2EFB /* ZoiaPatchReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */;
+			productName = ZoiaPatchReader;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C570D1132B1FCCED00E292D8 /* Project object */;
 }
