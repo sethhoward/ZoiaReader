@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "zoiapatchreader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sethhoward/ZoiaPatchReader",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4f0d942298410ba12a669b3039cff7d29d391155"
+      }
+    }
+  ],
+  "version" : 2
+}

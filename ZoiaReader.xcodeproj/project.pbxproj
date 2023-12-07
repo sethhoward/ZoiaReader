@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,9 +19,9 @@
 		C570D1552B1FD4E000E292D8 /* ZoiaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1532B1FD4E000E292D8 /* ZoiaButton.swift */; };
 		C570D1562B1FD4E000E292D8 /* ZoiaButtonGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570D1542B1FD4E000E292D8 /* ZoiaButtonGrid.swift */; };
 		C5E182622B215172005B2EFB /* PatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182612B215172005B2EFB /* PatchView.swift */; };
-		C5E182652B218024005B2EFB /* ZoiaPatchReader in Frameworks */ = {isa = PBXBuildFile; productRef = C5E182642B218024005B2EFB /* ZoiaPatchReader */; };
 		C5E182672B2218BD005B2EFB /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182662B2218BD005B2EFB /* FileListView.swift */; };
 		C5E182692B227258005B2EFB /* PatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E182682B227258005B2EFB /* PatchViewModel.swift */; };
+		C5E1826C2B227578005B2EFB /* ZoiaPatchReader in Frameworks */ = {isa = PBXBuildFile; productRef = C5E1826B2B227578005B2EFB /* ZoiaPatchReader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E182652B218024005B2EFB /* ZoiaPatchReader in Frameworks */,
+				C5E1826C2B227578005B2EFB /* ZoiaPatchReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +201,7 @@
 			);
 			name = ZoiaReader;
 			packageProductDependencies = (
-				C5E182642B218024005B2EFB /* ZoiaPatchReader */,
+				C5E1826B2B227578005B2EFB /* ZoiaPatchReader */,
 			);
 			productName = ZoiaReader;
 			productReference = C570D11B2B1FCCED00E292D8 /* ZoiaReader.app */;
@@ -276,7 +276,7 @@
 			);
 			mainGroup = C570D1122B1FCCED00E292D8;
 			packageReferences = (
-				C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */,
+				C5E1826A2B227578005B2EFB /* XCRemoteSwiftPackageReference "ZoiaPatchReader" */,
 			);
 			productRefGroup = C570D11C2B1FCCED00E292D8 /* Products */;
 			projectDirPath = "";
@@ -678,17 +678,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ZoiaBinReader;
+/* Begin XCRemoteSwiftPackageReference section */
+		C5E1826A2B227578005B2EFB /* XCRemoteSwiftPackageReference "ZoiaPatchReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sethhoward/ZoiaPatchReader";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C5E182642B218024005B2EFB /* ZoiaPatchReader */ = {
+		C5E1826B2B227578005B2EFB /* ZoiaPatchReader */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C570D1592B1FFD0100E292D8 /* XCLocalSwiftPackageReference "../ZoiaBinReader" */;
+			package = C5E1826A2B227578005B2EFB /* XCRemoteSwiftPackageReference "ZoiaPatchReader" */;
 			productName = ZoiaPatchReader;
 		};
 /* End XCSwiftPackageProductDependency section */
